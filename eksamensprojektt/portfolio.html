@@ -10,45 +10,96 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <script async defer src="./js/script.js"></script>
     <title>Document</title>
 </head>
 
 <body>
-    <div class="header">
+    <header>
         <div class="innerheader">
             <div class="logocontainer">
                 <h1>My<span>Portfolio</span></h1>
             </div>
-            <ul class="navigation">
-                <li>
-                    <button class="button" style="vertical-align:middle"><a href="index.html"><span>Home
-                            </span></a></button>
-                </li>
 
-                <li>
-                    <button class="button" style="vertical-align:middle"><a href="portfolio.html"><span>Portfolio
-                            </span></a></button>
-                </li>
+            <nav id="desktop">
+                <ul class="navigation">
+                    <li>
+                        <button class="button" style="vertical-align:middle">
+                            <a href="index.html">
+                                <span>Home</span>
+                            </a>
+                        </button>
+                    </li>
 
-                <li>
-                    <button class="button" style="vertical-align:middle"><a href="about.html"><span>About
-                            </span></a></button>
-                </li>
+                    <li>
+                        <button class="button" style="vertical-align:middle">
+                            <a href="portfolio.html">
+                                <span>Portfolio</span>
+                            </a>
+                        </button>
+                    </li>
 
-                <li>
-                    <button class="button" style="vertical-align:middle"><a href="contact.html"><span>Contact
-                            </span></a></button>
-                </li>
-            </ul>
+                    <li>
+                        <button class="button" style="vertical-align:middle">
+                            <a href="about.html">
+                                <span>About</span>
+                            </a>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="button" style="vertical-align:middle">
+                            <a href="contact.html">
+                                <span>Contact</span>
+                            </a>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav id="mobile">
+                <div class="burger-button">
+                    <img src="./image/burger.svg" id="burger-open" class="burger-menu" alt="" />
+                    <img src="./image/cross.svg" id="burger-close" class="burger-menu" alt="" />
+                </div>
+
+                <ul id="mobile-dropdown">
+                    <li>
+                        <a href="index.html">
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="portfolio.html">
+                            <span>Portfolio</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            <span>About</span>
+                        </a>
+                    </li>
+
+                    <li>
+
+                        <a href="contact.html">
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
         </div>
-    </div>
+    </header>
     <section id="portfolio">
         <div class="portfolioheading">
             <span>My Recent Projects</span>
             <h2>My Portfolio</h2>
         </div>
 
-       
+
         <div class="portfolio-wrapper">
             <div class="portfolio-heading">
                 <h1>CSS Animation</h1>
@@ -71,17 +122,17 @@
                         sit amet consectetur adipisicing elit. Veniam, exercitationem possimus dolore earum
                         molestias ad velit et. Suscipit dignissimos tempora est nemo animi consequatur nam dolorum
                         itaque?
-                       </p>
+                    </p>
                 </div>
             </div>
         </div>
 
         <div class="portfolio-wrapper">
-                 <div class="portfolio-heading">
+            <div class="portfolio-heading">
                 <h1>Moving Art</h1>
-                 </div>
+            </div>
             <div class="portfoliocontainer">
-                    <img src="movingart/movingart.gif" alt="kvindetegner">    
+                <img src="movingart/movingart.gif" alt="kvindetegner">
 
                 <div class="portfolio-text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, exercitationem possimus dolore
@@ -94,11 +145,11 @@
                         sit amet consectetur adipisicing elit. Veniam, exercitationem possimus dolore earum
                         molestias ad velit et. Suscipit dignissimos tempora est nemo animi consequatur nam dolorum
                         itaque?
-                       </p>
+                    </p>
                 </div>
             </div>
         </div>
-        
+
 
         <div class="portfolio-wrapper">
             <div class="portfolio-heading">
@@ -120,7 +171,7 @@
                         sit amet consectetur adipisicing elit. Veniam, exercitationem possimus dolore earum
                         molestias ad velit et. Suscipit dignissimos tempora est nemo animi consequatur nam dolorum
                         itaque?
-                       </p>
+                    </p>
                 </div>
             </div>
         </div>
@@ -147,11 +198,11 @@
                         sit amet consectetur adipisicing elit. Veniam, exercitationem possimus dolore earum
                         molestias ad velit et. Suscipit dignissimos tempora est nemo animi consequatur nam dolorum
                         itaque?
-                       </p>
+                    </p>
                 </div>
             </div>
         </div>
-        
+
     </section>
 </body>
 
