@@ -1,0 +1,84 @@
+#portfolio {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 60px;
+   border-bottom: 1px solid #BEB7A4;
+}
+
+.portfolioheading {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.portfolioheading span {
+   color: #FF7F11;
+   font-size: 40px;
+   font-weight: 600;
+}
+
+.portfolioheading h2 {
+   font-size: 20px;
+   color: black;
+   font-weight: 500;
+   padding: 10px;
+}
+
+.portfoliocontainer {
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+   margin: 25px auto 0 auto;
+   max-width: 1140px;
+}
+
+.portfolio-wrapper {
+   margin-top: 45px;
+}
+
+@media only screen and (max-width: 1000px) {
+   .portfoliocontainer {
+      flex-direction: column;
+   }
+
+}
+
+.portfolio-heading {
+   width: 100%;
+}
+
+.portfolio-heading h1 {
+   margin: 0;
+   text-align: center;
+}
+
+
+.portfolio-text {
+   padding: 15px;
+   background-color: #BEB7A4;
+   border: 1px solid #554646;
+}
+
+
+.sprite {
+   margin: 0 auto;
+   width: 465px;
+   min-width: 465px;
+   height: 200px;
+   background: url(../image/logoinitiall.png) 0 0 no-repeat;
+   animation: play 1.7s steps(10) infinite;
+}
+
+@keyframes play {
+   0% {
+      background-position: 0px;
+   }
+
+   100% {
+      background-position: -5000px;
+   }
+}
+
