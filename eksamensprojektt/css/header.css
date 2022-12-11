@@ -14,7 +14,8 @@ header {
     width: 100%;
     height: 80px;
     display: block;
-    background-color: #554646;
+    background-color: #030202;
+    z-index: 1;
 }
 
 .innerheader {
@@ -60,7 +61,7 @@ header {
 .button {
     display: inline-flex;
     border-radius: 6px;
-    background-color: #554646;
+    background-color: #030202;
     border: none;
     color: #FF7F11;
     text-align: center;
