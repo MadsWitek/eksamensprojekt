@@ -122,14 +122,14 @@ header {
 }
 
 #mobile-dropdown li {
-    background: #BEB7A4;
+    background: #1C1C1C;
     text-align: center;
     padding: 25px 0;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #FF7F11;
 }
 
 #mobile-dropdown li a {
-    color: #000;
+    color: #FF7F11;
 }
 
 #burger-close {
