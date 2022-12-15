@@ -130,6 +130,8 @@ header {
 
 #mobile-dropdown li a {
     color: #FF7F11;
+    font-size: 20px;
+    font-weight: 50;
 }
 
 #burger-close {

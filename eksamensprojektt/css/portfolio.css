@@ -1,6 +1,7 @@
-body{
+body {
    background-color: #1c1c1c;
 }
+
 #portfolio {
    display: flex;
    justify-content: center;
@@ -45,12 +46,12 @@ body{
 }
 
 .portfolio-heading {
-   width: 100%;
+   width: 57%;
+   margin-left: auto;
 }
 
 .portfolio-heading h1 {
    margin: 0;
-   left: 490px;
    position: relative;
    color: #FF7F11;
 }
@@ -59,12 +60,16 @@ body{
 .portfolio-text {
    padding: 0 5px;
    background-color: #BEB7A4;
-   border-radius: 4px;  
+   border-radius: 4px;
 }
-.portfolio-text h1{
-      margin: 0;
-      text-align: center;
+
+.portfolio-text-heading {
+   margin: 0;
+   position: relative;
+   color: #FF7F11;
 }
+
+
 
 .sprite {
    margin: 0 auto;
@@ -89,7 +94,14 @@ body{
    .portfoliocontainer {
       flex-direction: column;
    }
-   .portfolio-heading h1{
+
+   .portfolio-heading {
+      width: 100%;
+      margin: 0;
+      text-align: center;
+   }
+
+   .portfolio-heading h1 {
       text-align: center;
       left: 0;
    }
