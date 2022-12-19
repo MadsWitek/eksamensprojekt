@@ -6,7 +6,6 @@
 
 body {
     background: #1c1c1c;
-    font-size: 14px;
     padding-top: 50px;
     color: #fff;
 }
@@ -20,8 +19,28 @@ body {
     margin: 0 auto;
 }
 
-.fold {
-    height: calc(100vh - 80px);
+.background-orange {
+    background: #FF7F11;
+    width: 100%;
+}
+
+
+.background-orange .container {
+    padding: 50px 0;
+}
+
+.background-orange .container .cta {
+    background-color: #030202;
+    color: #FF7F11;
+}
+
+.background-orange .container h2,
+.background-orange .container p {
+    color: #030202;
+}
+
+.background-orange .container .image-container .bar {
+    border-color: #030202;
 }
 
 h1 {
@@ -116,4 +135,23 @@ a {
 .cta:hover span:after {
     opacity: 1;
     right: 0;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .container {
+        display: block;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .background-orange {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .background-orange .image-container {
+        margin-top: 50px;
+    }
+
 }

@@ -1,48 +1,60 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background: #1c1c1c;
     font-size: 14px;
     padding-top: 50px;
 }
-.container{
+
+section {
+    padding-bottom: 50px;
+}
+
+.container {
     max-width: 1140px;
     margin: 50px auto 0 auto;
     flex: auto;
 }
-.contactbox{
+
+.contactbox {
     background: #030202;
     display: flex;
 }
-.contactleft{
+
+.contactleft {
     flex-basis: 60%;
     padding: 40px 60px;
     color: black;
 }
-.contactright{
+
+.contactright {
     flex-basis: 40%;
     padding: 40px;
     background: #FF7F11;
 }
-h1{
+
+h1 {
     margin-bottom: 25px;
     color: #FF7F11;
     text-align: center;
     font-size: 40px;
     font-weight: 600;
 }
-h2{
+
+h2 {
     text-align: center;
     margin-bottom: 10px;
     color: #FF7F11;
 }
-.container p{
+
+.container p {
     margin-bottom: 10px;
 }
-input{
+
+input {
     width: 90%;
     border: none;
     border-bottom: 1px solid #FF7F11;
@@ -51,42 +63,47 @@ input{
     border-radius: 2px;
     padding: 10px;
 }
-textarea{
+
+textarea {
     width: 90%;
     border: 1px solid #BEB7A4;
     outline: none;
     padding: 10px;
     border-radius: 5px;
 }
-.contactbox p{
+
+.contactbox p {
     margin-top: 25px;
     color: #FFFFFC;
 }
-.contactleft h3{
+
+.contactleft h3 {
     margin-bottom: 3px;
     color: #FF7F11;
 }
-.button-submit{
-  background-color: #FFFFFC;
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  border-radius: 5px;
-  cursor: pointer;
+
+.button-submit {
+    background-color: #FFFFFC;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
 }
-.button-submit:hover{
+
+.button-submit:hover {
     background-color: #FF7F11;
 }
 
-.inputrow{
-    color:#FFFFFC;
+.inputrow {
+    color: #FFFFFC;
 }
 
-.inputgroup{
-   padding: 3px;
+.inputgroup {
+    padding: 3px;
 }

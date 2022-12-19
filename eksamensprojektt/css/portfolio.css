@@ -1,5 +1,6 @@
 body {
    background-color: #1c1c1c;
+   padding-top: 50px;
 }
 
 #portfolio {
@@ -7,8 +8,6 @@ body {
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   padding: 60px;
-   border-bottom: 1px solid #BEB7A4;
    position: relative;
    z-index: 0;
 }
