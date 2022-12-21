@@ -69,7 +69,7 @@ input {
     border-radius: 2px;
     padding: 10px;
 }
-label p{
+.producttext{
     color: #FFFFFC;
 }
 textarea {
@@ -113,4 +113,13 @@ textarea {
 
 .inputgroup {
     padding: 3px;
+}
+
+@media only screen and (max-width: 850px) {
+  .contactbox{
+    flex-direction: column;
+  }
+  .container{
+    margin: 10%;
+  }
 }
